@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgb(19, 139, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chrono{
+    border: solid 2px grey;
+    width: 400px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chrono.grow{
+    font-size: 30px;
+}
+
+.btn{
+    display: flex;
+    width: 400px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: rgb(19, 139, 19);
+    color: white;
+    border-radius: 5px;
+}
